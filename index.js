@@ -47,12 +47,17 @@ const monthlyRate = monthlyRateLong.toFixed(2);
 If your name is `Oscar` mortgageCalculator() should return "Oscar, your monthly rate is 1073.64"
 */
 
-function mortgageCalculator () {
- return name + " your monthly rate is $" + monthlyRate;
+// function mortgageCalculator() {
+//  return name + " your monthly rate is $" + monthlyRate;
+// }
     
-    }
-    
-    console.log(mortgageCalculator() );
+//   console.log(mortgageCalculator() );
+
+function mortgageCalculator ( ) {
+  console.log(`${name}, your monthly rate is ${monthlyRate}`);
+  }
+  mortgageCalculator();
+
 
 // 🏡 Task 4: Arguments and Parameters
 /* Substitute the variables in your functions for parameters such that you can substitute `P`, `I`, and `N` when you call the function.
